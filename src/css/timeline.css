@@ -1,0 +1,39 @@
+
+#timeline {
+    position: relative;
+    padding: 5%;
+}
+
+#timeline::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    bottom: 2rem;
+    width: 4px;
+    background: #2c5a8b;
+    transform: translateX(-50%);
+}
+
+.timeline-event {
+    position: relative;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #98a9c15e;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 45%;
+}
+
+.timeline-event.left {
+    left: 0;
+}
+
+.timeline-event.right {
+    left: 55%;
+}
+
+.timeline-event h3 {
+    margin: 0 0 1rem;
+}
+
