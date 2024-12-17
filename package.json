@@ -1,0 +1,13 @@
+{
+  "name": "blog-grupo-h-test",
+  "version": "1.0.0",
+  "description": "Claro! Aqui está uma divisão de pesquisa sobre a **Evolução das Metodologias de Desenvolvimento** centrada na **Crise do Software** como marco principal. Cada tópico foi pensado para que as pessoas possam trabalhar de forma independente, mas complementar:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
